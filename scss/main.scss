@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5%; 
+    /*1 rem = 10px*/    
+}
+
+@import "variables.scss";
+@import "mobile_Index.scss";
+@import "header_Mobile.scss";
+@import "footer_Mobile.scss";
+@import "mobile_Servicios.scss";
+@import "responsive_Ipad.scss";
+@import "responsive_1280Desktop";

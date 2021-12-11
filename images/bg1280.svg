@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b800cc"/>
+      <stop offset="0.515" stop-color="#5b008f"/>
+      <stop offset="1" stop-color="#44006b"/>
+      <stop offset="1" stop-color="#a000a5"/>
+      <stop offset="1" stop-color="#500053"/>
+    </linearGradient>
+    <clipPath id="clip-_1280_INDEX">
+      <rect width="1280" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="_1280_INDEX" data-name="1280 INDEX" clip-path="url(#clip-_1280_INDEX)">
+    <rect width="1280" height="800" fill="url(#linear-gradient)"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M1710,252.671s-324-14.47-551.283-125.779S430,0,430,0H1710Z" transform="translate(-430)" fill="#fff"/>
+  </g>
+</svg>

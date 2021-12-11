@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="736" viewBox="0 0 414 736">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b800cc"/>
+      <stop offset="0.515" stop-color="#5b008f"/>
+      <stop offset="1" stop-color="#44006b"/>
+      <stop offset="1" stop-color="#a000a5"/>
+      <stop offset="1" stop-color="#500053"/>
+    </linearGradient>
+    <clipPath id="clip-MOBILE_SERVICIOS">
+      <rect width="414" height="736"/>
+    </clipPath>
+  </defs>
+  <g id="MOBILE_SERVICIOS" data-name="MOBILE SERVICIOS" clip-path="url(#clip-MOBILE_SERVICIOS)">
+    <rect width="414" height="736" fill="url(#linear-gradient)"/>
+    <path id="TrazoBg" d="M844.171,177.6S739.334,167.426,665.792,89.189,430,0,430,0H844.171Z" transform="translate(-430)" fill="#fff"/>
+  </g>
+</svg>

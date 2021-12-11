@@ -1,0 +1,58 @@
+
+$colorGris: #FFFFFF;
+$colorDarkBlue: #0099FF;
+$colorDarkViolet: #44006B;
+$colorLightViolet: #ef5dff;
+$colorDarkGris: #555;
+
+
+
+/*ETIQUETAS HMTL START*/
+
+body {
+    height: 100%;
+    width: 100vw;
+    /*background-image: url(../images/bgMobile.svg);*/
+    background-color: $colorDarkViolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.h1Titles {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.h3Subtitles {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.h3SubtitleFooter {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2rem;
+    color: $colorDarkViolet;
+}
+
+.h3SubtitleCards {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 3rem;
+    color: $colorDarkViolet;
+}
+.subrayado {
+    color: $colorDarkViolet;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+/*ETIQUETAS HMTL END*/

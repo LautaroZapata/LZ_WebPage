@@ -1,0 +1,165 @@
+// Medium devices (tablets, 768px and up)
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    /*ETIQUETAS HTML START */
+
+    body {
+        height: 100%;
+        width: 100vw;
+        /*background-image: url(../images/bgIpad.svg);*/
+        background-color: $colorDarkViolet;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    
+    .h1Titles {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 5rem;
+        color: #fff;
+    }
+    
+    .h3Subtitles {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 3rem;
+        color: #fff;
+    }
+    
+    .h3SubtitleFooter {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 3rem;
+        color: $colorDarkViolet;
+    }
+    /*ETIQUETAS HMTL END*/
+
+
+    /*header_Index.html START */
+    nav {
+        font-size: 2.5rem;
+        width: 100%;    
+    }
+
+    
+    /*header_Index.html END */
+
+    /*section1_Index.html START */
+
+    .imgLogoContainer {
+        height: 50rem;
+        width: 50rem;
+    }
+    
+    .sizeLogo {
+        max-width: 100%;
+        max-width: 100%;
+    }
+
+    .divMainSection1Index {
+        animation: section1 3s;
+        height: 100vh;
+    }
+    @keyframes section1{
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+
+    /*section1_Index.html END */
+    
+    /*section1_Servicios.html START */
+
+    .divContainerServiciosTitle {
+        margin-top: 10rem;
+    }
+    .serviciosTitle {
+        background: linear-gradient(45deg, #ff009daa 0%, #ff00c8 50%,  $colorLightViolet 100%);
+        background-repeat: repeat;
+        animation: serviciosTitle 3s linear infinite;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    @keyframes serviciosTitle {
+        0% {
+            background-position: 0 0 ;
+        }
+        50% {
+            background-position: 20rem;
+        }
+        100% {
+            background-position: 30rem 0;
+        }
+    }
+
+
+    /*section1_Servicios.html END */
+    /*footer START */
+
+    footer {
+        height: auto;
+        padding: 3rem;
+        font-size: 2rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        background-color: $colorGris;
+        color: #000;     
+    }
+    .aFooter {
+        color: #000;
+    }
+    .aFooter:hover {
+        color:$colorDarkViolet;
+    }
+    
+    .iFooter {
+        font-size: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    
+    }
+    
+    
+    :root {
+        --whatsapp: #4dc247;
+        --instagram: #e4405f;
+        --mail: #ea4335;
+    }
+    
+    .whatsapp {
+        color: $colorDarkViolet;
+    }
+    .instagram {
+        color: $colorDarkViolet;
+    }
+    .mail {
+        color: $colorDarkViolet;
+    }
+    .whatsapp:hover {
+        color: var(--whatsapp);
+        transform: scale(1.2);
+        transition: all 0.6s;
+    }
+    
+    .instagram:hover {
+        color: var(--instagram);
+        transform: scale(1.2);
+        transition: all 0.6s;
+    }
+    
+    .mail:hover {
+        color: var(--mail);
+        transform: scale(1.2);
+        transition: all 0.6s;
+    }
+}
