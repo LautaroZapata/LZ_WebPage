@@ -25,7 +25,7 @@ body {
 .h3Subtitles {
   font-family: Montserrat;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff; }
 
 .h3SubtitleFooter {
@@ -47,6 +47,17 @@ body {
 a {
   text-decoration: none; }
 
+.pText {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 2.5rem; }
+
+.buttonMoreInfo {
+  background-color: #fff;
+  color: #44006B; }
+
 /*ETIQUETAS HMTL END*/
 /*INDEX.HTML - MOBILE -  Section 1 START*/
 .section1Index {
@@ -61,16 +72,19 @@ a {
   max-width: 100%; }
 
 .divMainSection1Index {
-  animation: section1 3s;
+  animation: opacity 3s;
   height: 100vh; }
 
-@keyframes section1 {
+@keyframes opacity {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
 /*INDEX.HTML - MOBILE -  Section 1 END*/
+header {
+  width: 100%; }
+
 nav {
   font-size: 2rem; }
 
@@ -81,7 +95,11 @@ footer {
   font-family: Montserrat;
   font-weight: 400;
   background-color: #FFFFFF;
-  color: #000; }
+  color: #000;
+  margin-top: 3rem; }
+
+.divFooterContainer {
+  width: 90%; }
 
 .aFooter {
   color: #000; }
@@ -125,9 +143,9 @@ footer {
 
 .section1Servicios {
   height: 100%;
-  animation: section1Servicios 3s; }
+  animation: opacity 3s; }
 
-@keyframes section1Servicios {
+@keyframes opacity {
   from {
     opacity: 0; }
   to {
@@ -207,32 +225,278 @@ footer {
   font-size: 10rem;
   color: #FFFFFF; }
 
+/* sectionMain_DesarrolloWeb START*/
+.sectionMain_DesarrolloWeb {
+  height: 100%;
+  width: auto;
+  animation: opacity 3s; }
+
+@keyframes opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.desarrolloWebTitleContainer {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../images/programador.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+  animation: imgmove 10s infinite linear alternate; }
+
+@keyframes imgmove {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+
+.images_TextContainer {
+  height: auto;
+  width: 95%; }
+
+.imgDeveloper {
+  height: 60%;
+  width: 60%;
+  float: left;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText {
+  margin-top: 3rem;
+  text-align: right; }
+
+.images_TextContainer2 {
+  height: auto;
+  width: 95%; }
+
+.imgDeveloper2 {
+  height: 60%;
+  width: 60%;
+  float: right;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float2 6s ease-in-out infinite; }
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText2 {
+  margin-top: 3rem; }
+
+.buttonContainerDesarrolloWeb {
+  height: 20rem; }
+
+/* sectionMain_DesarrolloWeb END*/
+.sectionMain_Responsive {
+  height: 100%;
+  width: auto;
+  animation: opacity 3s; }
+
+@keyframes opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.responsiveTitleContainer {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../images/responsive.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+  animation: imgmove 10s infinite linear alternate; }
+
+@keyframes imgmove {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+
+.images_TextContainer {
+  height: auto;
+  width: 95%; }
+
+.imgIpad {
+  height: 60%;
+  width: 60%;
+  float: left;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText {
+  margin-top: 3rem;
+  text-align: right; }
+
+.images_TextContainer2 {
+  height: auto;
+  width: 95%; }
+
+.imgIpad2 {
+  height: 60%;
+  width: 60%;
+  float: right;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float2 6s ease-in-out infinite; }
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText2 {
+  margin-top: 3rem; }
+
+.buttonContainerResponsive {
+  height: 20rem; }
+
+.sectionMain_WebCreate {
+  height: 100%;
+  width: auto;
+  animation: opacity 3s; }
+
+@keyframes opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.webCreateTitleContainer {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../images/responsive.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+  animation: imgmove 10s infinite linear alternate; }
+
+@keyframes imgmove {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+
+.images_TextContainer {
+  height: auto;
+  width: 95%; }
+
+.imgWebCreate {
+  height: 60%;
+  width: 60%;
+  float: left;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText {
+  margin-top: 3rem;
+  text-align: right; }
+
+.images_TextContainer2 {
+  height: auto;
+  width: 95%; }
+
+.imgWebCreate2 {
+  height: 60%;
+  width: 60%;
+  float: right;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float2 6s ease-in-out infinite; }
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText2 {
+  margin-top: 3rem; }
+
+.buttonContainerWebCreate {
+  height: 20rem; }
+
 @media (min-width: 768px) and (max-width: 1200px) {
   /*ETIQUETAS HTML START */
   body {
     height: 100%;
     width: 100vw;
-    /*background-image: url(../images/bgIpad.svg);*/
     background-color: #44006B;
     background-repeat: no-repeat;
     background-size: cover; }
   .h1Titles {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6rem;
     color: #fff; }
   .h3Subtitles {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff; }
   .h3SubtitleFooter {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 3rem;
     color: #44006B; }
+  .subrayado {
+    color: #44006B;
+    font-weight: 400; }
+  a {
+    text-decoration: none; }
+  .pText {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 3rem; }
+  .buttonMoreInfo {
+    background-color: #fff;
+    color: #44006B;
+    padding: 3rem; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
+  header {
+    width: 100%; }
   nav {
     font-size: 2.5rem;
     width: 100%; }
@@ -272,6 +536,198 @@ footer {
     100% {
       background-position: 30rem 0; } }
   /*section1_Servicios.html END */
+  /* sectionMain_DesarrolloWeb START */
+  .sectionMain_DesarrolloWeb {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .desarrolloWebTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/programador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 80%; }
+  .imgDeveloper {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 80%; }
+  .imgDeveloper2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerDesarrolloWeb {
+    height: 25rem; }
+  /* sectionMain_Responsive START */
+  .sectionMain_Responsive {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .responsiveTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 80%; }
+  .imgIpad {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 80%; }
+  .imgIpad2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerResponsive {
+    height: 25rem; }
+  /* sectionMain_WebCreate START */
+  .sectionMain_WebCreate {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .webCreateTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 80%; }
+  .imgWebCreate {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 80%; }
+  .imgWebCreate2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerWebCreate {
+    height: 25rem; }
   /*footer START */
   footer {
     height: auto;
@@ -281,6 +737,8 @@ footer {
     font-weight: 400;
     background-color: #FFFFFF;
     color: #000; }
+  .divFooterContainer {
+    width: 90%; }
   .aFooter {
     color: #000; }
   .aFooter:hover {
@@ -317,10 +775,9 @@ footer {
   body {
     height: 100%;
     width: auto;
-    background-image: url(../images/bg1280.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #FFFFFF; }
+    background-color: #44006B; }
   .h1Titles {
     font-family: Montserrat;
     font-weight: 700;
@@ -329,18 +786,38 @@ footer {
   .h3Subtitles {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #fff; }
   .h3SubtitleFooter {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 4rem;
+    color: #44006B; }
+  .subrayado {
+    color: #44006B;
+    font-weight: 400; }
+  a {
+    text-decoration: none; }
+  .pText {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 5rem; }
+  .buttonMoreInfo {
+    background-color: #fff;
+    color: #44006B;
+    padding: 1rem; }
+  .buttonMoreInfo:hover {
+    transform: scale(1.1);
+    transition: all 1s;
     color: #44006B; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
   header {
     display: flex;
-    justify-content: end; }
+    justify-content: end;
+    width: 100%; }
   nav {
     font-size: 2.5rem; }
   a {
@@ -445,16 +922,222 @@ footer {
     font-size: 10rem;
     color: #FFFFFF; }
   /*section1_Servicios.html END */
+  /*section1_Servicios.html END */
+  /* sectionMain_DesarrolloWeb START */
+  .sectionMain_DesarrolloWeb {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .desarrolloWebTitleContainer {
+    height: 50rem;
+    width: 100%;
+    background-image: url(../images/programador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 20s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgDeveloper {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgDeveloper2 {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerDesarrolloWeb {
+    height: 25rem; }
+  /* sectionMain_Responsive START */
+  .sectionMain_Responsive {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .responsiveTitleContainer {
+    height: 50rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 20s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgIpad {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgIpad2 {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerResponsive {
+    height: 25rem; }
+  /* sectionMain_WebCreate START */
+  .sectionMain_WebCreate {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .webCreateTitleContainer {
+    height: 50rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 20s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgWebCreate {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgWebCreate2 {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerWebCreate {
+    height: 25rem; }
   /*footer START */
   footer {
     height: auto;
-    width: 100vw;
     padding: 3rem;
     font-size: 2rem;
     font-family: Montserrat;
     font-weight: 400;
     background-color: #FFFFFF;
     color: #000; }
+  .divFooterContainer {
+    width: 95%; }
   .aFooter {
     color: #000; }
   .aFooter:hover {

@@ -1,10 +1,10 @@
 
 .section1Servicios {
     height: 100%;
-    animation: section1Servicios 3s;
+    animation: opacity 3s;
 }
 
-@keyframes section1Servicios{
+@keyframes opacity{
     from {
         opacity: 0;
     }
@@ -98,3 +98,331 @@
     font-size: 10rem;
     color: $colorGris
 }
+
+/* sectionMain_DesarrolloWeb START*/
+
+.sectionMain_DesarrolloWeb {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s;
+}
+
+@keyframes opacity{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.desarrolloWebTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/programador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate;
+}
+@keyframes imgmove {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.images_TextContainer {
+    height: auto;
+    width: 95%;
+    
+}
+
+
+
+.imgDeveloper {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+
+.images_TextContainer2 {
+    height: auto;
+    width: 95%;
+}
+
+
+
+.imgDeveloper2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite;
+}
+
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText2 {
+    margin-top: 3rem;
+}
+
+.buttonContainerDesarrolloWeb {
+
+    height: 20rem;
+
+}
+
+/* sectionMain_DesarrolloWeb END*/
+
+//sectionMain_ResponsiveDesign START
+
+.sectionMain_Responsive {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s;
+}
+
+@keyframes opacity{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.responsiveTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate;
+}
+@keyframes imgmove {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.images_TextContainer {
+    height: auto;
+    width: 95%;
+    
+}
+
+
+
+.imgIpad {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+
+.images_TextContainer2 {
+    height: auto;
+    width: 95%;
+}
+
+
+
+.imgIpad2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite;
+}
+
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText2 {
+    margin-top: 3rem;
+}
+
+.buttonContainerResponsive {
+
+    height: 20rem;
+
+}
+//sectionMain_ResponsiveDesign END
+
+//sectionMain_WebCreate START
+
+.sectionMain_WebCreate {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s;
+}
+
+@keyframes opacity{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.webCreateTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate;
+}
+@keyframes imgmove {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.images_TextContainer {
+    height: auto;
+    width: 95%;
+    
+}
+
+
+
+.imgWebCreate {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+
+.images_TextContainer2 {
+    height: auto;
+    width: 95%;
+}
+
+
+
+.imgWebCreate2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite;
+}
+
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText2 {
+    margin-top: 3rem;
+}
+
+.buttonContainerWebCreate {
+
+    height: 20rem;
+
+}
+//sectionMain_WebDesign END

@@ -17,10 +17,10 @@
 }
 
 .divMainSection1Index {
-    animation: section1 3s;
+    animation: opacity 3s;
     height: 100vh;
 }
-@keyframes section1{
+@keyframes opacity{
     from {
         opacity: 0;
     }
