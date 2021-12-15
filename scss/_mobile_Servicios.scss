@@ -123,7 +123,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 5rem;
-    animation: imgmove 10s infinite linear alternate;
+    animation: imgmove 6s infinite linear alternate;
 }
 @keyframes imgmove {
     from {
@@ -233,7 +233,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 5rem;
-    animation: imgmove 10s infinite linear alternate;
+    animation: imgmove 6s infinite linear alternate;
 }
 @keyframes imgmove {
     from {
@@ -319,7 +319,7 @@
 }
 //sectionMain_ResponsiveDesign END
 
-//sectionMain_WebCreate START
+//sectionMain_WebDesign START
 
 .sectionMain_WebCreate {
     height: 100%;
@@ -343,7 +343,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 5rem;
-    animation: imgmove 10s infinite linear alternate;
+    animation: imgmove 6s infinite linear alternate;
 }
 @keyframes imgmove {
     from {
@@ -427,3 +427,112 @@
 
 }
 //sectionMain_WebDesign END
+
+//sectionMain_Mantenimiento START
+
+.sectionMain_Mantenimiento {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s;
+}
+
+@keyframes opacity{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.mantenimientoTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/mantenimiento.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 6s infinite linear alternate;
+}
+@keyframes imgmove {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.images_TextContainer {
+    height: auto;
+    width: 95%;
+    
+}
+
+
+
+.imgMantenimiento {
+    height: 50%;
+    width: 50%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+
+.images_TextContainer2 {
+    height: auto;
+    width: 95%;
+}
+
+
+
+.imgMantenimiento2 {
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite;
+}
+
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floatText2 {
+    margin-top: 3rem;
+}
+
+.buttonContainerMantenimiento {
+
+    height: 20rem;
+
+}
+//sectionMain_Mantenimiento END

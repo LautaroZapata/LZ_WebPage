@@ -73,6 +73,10 @@ a {
   color: #fff;
   font-size: 3rem; }
 
+.iHome {
+  color: #44006B;
+  font-size: 2.5rem; }
+
 /*ETIQUETAS HMTL END*/
 /*INDEX.HTML - MOBILE -  Section 1 START*/
 .section1Index {
@@ -259,7 +263,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 5rem;
-  animation: imgmove 10s infinite linear alternate; }
+  animation: imgmove 6s infinite linear alternate; }
 
 @keyframes imgmove {
   from {
@@ -336,7 +340,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 5rem;
-  animation: imgmove 10s infinite linear alternate; }
+  animation: imgmove 6s infinite linear alternate; }
 
 @keyframes imgmove {
   from {
@@ -413,7 +417,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 5rem;
-  animation: imgmove 10s infinite linear alternate; }
+  animation: imgmove 6s infinite linear alternate; }
 
 @keyframes imgmove {
   from {
@@ -471,6 +475,82 @@ footer {
 .buttonContainerWebCreate {
   height: 20rem; }
 
+.sectionMain_Mantenimiento {
+  height: 100%;
+  width: auto;
+  animation: opacity 3s; }
+
+@keyframes opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.mantenimientoTitleContainer {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../images/mantenimiento.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+  animation: imgmove 6s infinite linear alternate; }
+
+@keyframes imgmove {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+
+.images_TextContainer {
+  height: auto;
+  width: 95%; }
+
+.imgMantenimiento {
+  height: 50%;
+  width: 50%;
+  float: left;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText {
+  margin-top: 3rem;
+  text-align: right; }
+
+.images_TextContainer2 {
+  height: auto;
+  width: 95%; }
+
+.imgMantenimiento2 {
+  height: 50%;
+  width: 50%;
+  float: right;
+  margin-right: 3rem;
+  transform: translateY(0px);
+  animation: float2 6s ease-in-out infinite; }
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.floatText2 {
+  margin-top: 3rem; }
+
+.buttonContainerMantenimiento {
+  height: 20rem; }
+
 @media (min-width: 768px) and (max-width: 1200px) {
   /*ETIQUETAS HTML START */
   body {
@@ -521,6 +601,9 @@ footer {
     z-index: 1000; }
   .buttonBack {
     color: #fff;
+    font-size: 4rem; }
+  .iHome {
+    color: #44006B;
     font-size: 4rem; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
@@ -758,6 +841,70 @@ footer {
     margin-top: 3rem; }
   .buttonContainerWebCreate {
     height: 25rem; }
+  /* sectionMain_Mantenimiento START */
+  .sectionMain_Mantenimiento {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .mantenimientoTitleContainer {
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 10s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 80%; }
+  .imgMantenimiento {
+    height: 60%;
+    width: 60%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 80%; }
+  .imgMantenimiento2 {
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerMantenimiento {
+    height: 25rem; }
   /*footer START */
   footer {
     height: auto;
@@ -856,6 +1003,9 @@ footer {
     color: #fff;
     transform: scale(1.1);
     transition: all 1s; }
+  .aHome {
+    display: none;
+    overflow: hidden; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
   header {
@@ -1170,6 +1320,74 @@ footer {
   .floatText2 {
     margin-top: 3rem; }
   .buttonContainerWebCreate {
+    height: 25rem; }
+  /* sectionMain_Mantenimiento START */
+  .sectionMain_Mantenimiento {
+    height: 100%;
+    width: auto;
+    animation: opacity 3s; }
+  @keyframes opacity {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .mantenimientoTitleContainer {
+    height: 50rem;
+    width: 100%;
+    background-image: url(../images/responsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+    animation: imgmove 20s infinite linear alternate; }
+  @keyframes imgmove {
+    from {
+      background-position: bottom left; }
+    to {
+      background-position: top right; } }
+  .images_TextContainer {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgMantenimiento {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite; }
+  @keyframes float {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(-20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText {
+    margin-top: 3rem;
+    text-align: right; }
+  .images_TextContainer2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center; }
+  .imgMantenimiento2 {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-right: 3rem;
+    transform: translateY(0px);
+    animation: float2 6s ease-in-out infinite; }
+  @keyframes float2 {
+    0% {
+      transform: translateY(0px); }
+    50% {
+      transform: translateY(20px); }
+    100% {
+      transform: translateY(0px); } }
+  .floatText2 {
+    margin-top: 3rem; }
+  .buttonContainerMantenimiento {
     height: 25rem; }
   /*footer START */
   footer {
