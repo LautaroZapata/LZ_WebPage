@@ -58,6 +58,24 @@ a {
   background-color: #fff;
   color: #44006B; }
 
+.buttonBackContainer {
+  position: sticky;
+  top: 0rem;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44006B;
+  z-index: 1000; }
+
+.buttonBack {
+  color: #fff;
+  font-size: 3rem; }
+
+.buttonBack:hover {
+  color: #fff; }
+
 /*ETIQUETAS HMTL END*/
 /*INDEX.HTML - MOBILE -  Section 1 START*/
 .section1Index {
