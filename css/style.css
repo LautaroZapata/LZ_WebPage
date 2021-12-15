@@ -73,9 +73,6 @@ a {
   color: #fff;
   font-size: 3rem; }
 
-.buttonBack:hover {
-  color: #fff; }
-
 /*ETIQUETAS HMTL END*/
 /*INDEX.HTML - MOBILE -  Section 1 START*/
 .section1Index {
@@ -275,8 +272,8 @@ footer {
   width: 95%; }
 
 .imgDeveloper {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: left;
   margin-right: 3rem;
   transform: translateY(0px);
@@ -299,8 +296,8 @@ footer {
   width: 95%; }
 
 .imgDeveloper2 {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: right;
   margin-right: 3rem;
   transform: translateY(0px);
@@ -352,8 +349,8 @@ footer {
   width: 95%; }
 
 .imgIpad {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: left;
   margin-right: 3rem;
   transform: translateY(0px);
@@ -376,10 +373,11 @@ footer {
   width: 95%; }
 
 .imgIpad2 {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: right;
   margin-right: 3rem;
+  margin-bottom: 1rem;
   transform: translateY(0px);
   animation: float2 6s ease-in-out infinite; }
 
@@ -428,8 +426,8 @@ footer {
   width: 95%; }
 
 .imgWebCreate {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: left;
   margin-right: 3rem;
   transform: translateY(0px);
@@ -452,8 +450,8 @@ footer {
   width: 95%; }
 
 .imgWebCreate2 {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   float: right;
   margin-right: 3rem;
   transform: translateY(0px);
@@ -511,6 +509,19 @@ footer {
     background-color: #fff;
     color: #44006B;
     padding: 3rem; }
+  .buttonBackContainer {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #44006B;
+    z-index: 1000; }
+  .buttonBack {
+    color: #fff;
+    font-size: 4rem; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
   header {
@@ -669,6 +680,7 @@ footer {
     width: 60%;
     float: right;
     margin-right: 3rem;
+    margin-bottom: 3rem;
     transform: translateY(0px);
     animation: float2 6s ease-in-out infinite; }
   @keyframes float2 {
@@ -830,6 +842,20 @@ footer {
     transform: scale(1.1);
     transition: all 1s;
     color: #44006B; }
+  .buttonBackContainer {
+    position: sticky;
+    width: auto;
+    height: 6rem;
+    right: 100%;
+    z-index: 1000;
+    background-color: transparent; }
+  .buttonBack {
+    color: #fff;
+    font-size: 4rem; }
+  .buttonBack:hover {
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 1s; }
   /*ETIQUETAS HMTL END*/
   /*header_Index.html START */
   header {

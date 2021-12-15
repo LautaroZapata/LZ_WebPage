@@ -60,6 +60,25 @@
         transition: all 1s;
         color: $colorDarkViolet;
     }
+
+    .buttonBackContainer {
+        position: sticky;
+        width: auto;
+        height: 6rem;
+        right: 100%;
+        z-index: 1000;
+        background-color: transparent ;
+    }
+    
+    .buttonBack {
+        color: #fff;
+        font-size: 4rem;
+    }
+    .buttonBack:hover {
+        color: #fff;
+        transform: scale(1.1);
+        transition: all 1s;
+    }
     /*ETIQUETAS HMTL END*/
 
 
